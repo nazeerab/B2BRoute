@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mapper>
+ 
+  <uri>
+    <in>mt100.asp</in>
+    <out>http://www.yahoo.com</out>
+    <CertHeader>X-Cert</CertHeader>
+    <TimeOut>0</TimeOut>
+    <ContentType>text/xml</ContentType>
+    <HttpMethod>POST</HttpMethod>
+    <Instance>b2bfinprd</Instance>
+    <HTTPKeepAlive>true</HTTPKeepAlive>
+    <HTTPUserAgent>httpXproxymt100asp</HTTPUserAgent>
+  </uri>
+ 
+
+</mapper>
