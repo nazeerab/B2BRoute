@@ -1,76 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <mapper>
+ 
   <uri>
     <in>mt100.asp</in>
-    <out>www.yahoo.com</out>
+    <out>http://www.yahoo.com</out>
     <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
+    <TimeOut>0</TimeOut>
     <ContentType>text/xml</ContentType>
     <HttpMethod>POST</HttpMethod>
+    <Instance>b2bfinprd</Instance>
+    <HTTPKeepAlive>true</HTTPKeepAlive>
+    <HTTPUserAgent>httpXproxymt100asp</HTTPUserAgent>
   </uri>
-  <uri>
-    <in>mt100</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>mt940.asp</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>prmsg.asp</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>prreq.asp</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>sadad/bill</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>sadad/moi</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>account/balance</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
-  <uri>
-    <in>payment/stop</in>
-    <out>www.yahoo.com</out>
-    <CertHeader>X-Cert</CertHeader>
-    <TimeOut>5000</TimeOut>
-    <ContentType>text/xml</ContentType>
-    <HttpMethod>POST</HttpMethod>
-  </uri>
+ 
 
 </mapper>
